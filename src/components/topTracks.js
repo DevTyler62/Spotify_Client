@@ -51,6 +51,7 @@ getTopData(){
   this.getTopArtists();
   this.getTopTracks();
 }
+
     render(){
 
   return(
@@ -69,7 +70,7 @@ getTopData(){
         {this.state.topArtists.map(artists =>
           <div key={artists.id} className="stat">
             <div className="albumCover"> 
-              <img src={artists.images[0].url} alt="artist album art" />
+              <img alt="" src={artists.images[0] ? artists.images[0].url : require('./default-album-art.jpg')}/>
            </div>
            <div className="info">
             <div className="name"><h3>{artists.name} </h3></div>

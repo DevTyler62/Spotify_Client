@@ -1,21 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-//import playlistData from './components/playlistData';
-//import TopTracks from './components/topTracks';
 import Spotify from 'spotify-web-api-js';
-//import {Doughnut, Bar} from 'react-chartjs-2';
-//import {Router} from 'react-router-dom';
-//import { Redirect } from 'react-router-dom';
-//import { Navbar, Nav} from 'react-bootstrap';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-//import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-//import IconButton from '@material-ui/core/IconButton';
 import { Grid } from '@material-ui/core';
-
-//import history from './services/history';
-//import Navigation from './components/Navbar';
 import Routes from './routes/index';
 
 const spotifyWebApi = new Spotify();
