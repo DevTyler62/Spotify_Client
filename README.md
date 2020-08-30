@@ -5,9 +5,18 @@ for others either in our class or for the world to view.
 This was my first time using React JS and so I was learning as I went along. I know that their is quite a lot of things that I could improve upon to follow some of the best 
 practices when writing out the program. As I learn more at some point I would like to come back to this project and be able to see if I can recreate it in a better way. 
 
-This project allows a user to access their personal Spotify account to see some of their listening history visualized. They will be able to see thier top tracks and artists they listen to.  
+## Project Details
 
+This project allows a user to access their personal Spotify account to see some of their listening history visualized. They will be able to see thier top tracks and artists they listen to. They will also be able to see all of thier playlists they have created and then be able to view each on and see the average of the stastics from each song in a graphical form. These details come from Spotify's API in which each song has a set of specifications such as energy, liveness, and dancability. They will also be able to view a individual songs details in the now playing section in a pie graph form. In this secton as well they can use it as a player to which they can skip to the next song, go back to the previous one, as well as pausing and playing the song again.
 
+Srvices Used
+  - Spotify's API
+  - Chart JS
+  - Heroku
+
+To put on the web I used Heroku's services. If the site does not have people visiting it very often then it will take a while to load up. In this case sometimes after it takign a while to laod it will show an error and if that is the case then you shoudl just need to reload the page and it should work.
+
+Link to site: https://datafy-app.herokuapp.com/
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
