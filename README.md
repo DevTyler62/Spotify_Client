@@ -1,3 +1,15 @@
+These are the client files for the Datafy project. In order to view the server files you will need to locate the other respoitory named Spotify_authorization.
+This project was built in a team environment in a one college semester period. My contrubition was doing all of the coding as well as putting the application on the internet 
+for others either in our class or for the world to view. 
+
+This was my first time using React JS and so I was learning as I went along. I know that their is quite a lot of things that I could improve upon to follow some of the best 
+practices when writing out the program. As I learn more at some point I would like to come back to this project and be able to see if I can recreate it in a better way. 
+
+This project allows a user to access their personal Spotify account to see some of their listening history visualized. They will be able to see thier top tracks and artists they listen to.  
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
