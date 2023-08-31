@@ -1,0 +1,242 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300;1,400;1,800&display=swap');
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #212121;
+    color:#ffffff;
+}
+.topStats h2{
+    text-transform: uppercase;
+}
+.topStats {
+    padding-top: 100px;
+    width:90%;
+    margin:auto;
+    /* padding-left: 20px; */
+    box-sizing: border-box;
+}
+.topStats h1{
+    font-size:2em;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.topStats button{
+    /* margin-top:2vh; */
+    /* background: #CB356B; */
+    background: #CB356B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(0deg, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(0deg, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border:none;
+    padding:10px 20px;
+    box-sizing: border-box;
+    font-size: .8em;
+    color:white;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+.topStats .sectHead{
+    display:flex;
+    justify-content: space-between;
+    margin:auto;
+    margin-bottom: 2vh;
+    width:98%;
+}
+.contents{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:5vh;
+}
+.topTracks, .topArtists{
+    width:48%;
+    /* float:right; */
+    padding:40px;
+    box-sizing: border-box;
+    margin-top:10px;
+    background: #2e2e2e;
+}
+.topTracks h2, .topArtists h2{
+    font-size:1.25em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom:2vh;
+}
+.topArtists{
+    border-right: 1px solid #2e2e2e;
+}
+/* .centerLine{
+    width:1%;
+    height:auto;
+    background-color:red;
+} */
+
+
+.stat{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:100%;
+    /* max-width:50%; */
+    border-top: 1px solid #1f1f1f;
+    padding:20px;
+    box-sizing: border-box;
+    /* margin-top:20px; */
+}
+.albumCover{
+    width:20%;
+}
+.albumCover img{
+    width:100%;
+}
+.info{
+    width:78%;
+    padding-left:10px;
+    box-sizing: border-box;
+    /* display:flex; */
+    /* flex-direction: column; */
+}
+.name{
+    width:100%;
+    /* display:flex; */
+    text-align:left;
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+.genre{
+    width:100%;
+    font-style: italic;
+    display:flex;
+    flex-wrap: wrap;
+    /* padding:5px; */
+    box-sizing: border-box;
+    /* margin-right:5px; */
+}
+.genres{
+    width:auto;
+    /* display:flex;
+    flex-wrap: wrap; */
+    padding:5px;
+    box-sizing: border-box;
+}
+.track{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:900px){
+    .albumCover{
+        width:30%;
+    }
+    .info{
+        width:70%;
+    }
+
+}
+@media screen and (max-width:768px){
+    h2{
+        text-align: center;
+    }
+    .stat{
+        display:block;
+    }
+    .albumCover{
+        margin-left:auto;
+        margin-right:auto;
+        width:45%;
+    }
+    .info{
+        width:100%;
+        text-align:center;
+        margin-top:10px;
+        padding:0px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .name{
+        text-align:center;
+    }
+    .genre{
+        display:block;
+    }
+}
+
+@media screen and (max-width:414px){
+    .contents{
+        display:block;
+    }
+    .topTracks, .topArtists{
+        width:100%;
+    }
+    .stat{
+        display:flex;
+    }
+    .albumCover{
+        width:25%;
+    }
+    .info{
+        width:70%;
+        display:flex;
+        flex-direction: column;
+        text-align:left;
+        padding-left:10px;
+        margin-top:0px;
+    }
+    .name{
+        text-align:left;
+    }
+    .genre{
+        display:flex;
+        width:70%;
+    }
+
+}
