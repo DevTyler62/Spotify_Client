@@ -183,8 +183,9 @@ render() {
             <p>Just login below!</p>
 
           </div>
-            <Button color="secondary" className="active" id="login" href='http://localhost:8888'>Login With Spotify</Button>
+            {/* <Button color="secondary" className="active" id="login" href='http://localhost:8888'>Login With Spotify</Button> */}
             {/* <Button color="secondary" className="active" id="login" href='https://datafy-spotify-login.herokuapp.com'>Login With Spotify</Button> */}
+            <Button color="secondary" className="active" id="login" href='https://datafy-auth.vercel.app'>Login With Spotify</Button>
           </div>
           : null}
       </div>
