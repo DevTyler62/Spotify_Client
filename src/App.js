@@ -218,7 +218,8 @@ class App extends Component {
               color="secondary"
               className="active"
               id="login"
-              href="http://localhost:8888/login"
+              // href="http://localhost:8888/login"
+              href="https://spotify-authorization.vercel.app/login"
             >
               Login With Spotify
             </Button>
