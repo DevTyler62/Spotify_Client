@@ -12,12 +12,14 @@ This project allows a user to access their personal Spotify account to see some 
 Services Used
   - Spotify's API
   - Chart JS
-  - Heroku
+  - Heroku (Old hosting way)
+  - Vercel (Where it is hosted now)
 
-To put on the web I used Heroku's services. If the site does not have people visiting it very often then it will take a while to load up. In this case sometimes after it takign a while to laod it will show an error and if that is the case then you should just need to reload the page and it should work.
+To put it on the web I used Vercel to host the client side of the application. The server side of the application is being hosted using OnRender. It may take some time to load if there is inactivity, but after some time the page will load.
 
-Link to site: https://datafy-app.herokuapp.com/
+Currently as this app is in a development state with Spotfiy's new API policies. If your email is not listed on the user's list then the application will not return an access token for you. Meaning that the application will seem as though it does not work.
 
+Link to site: https://datafy-client.vercel.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
